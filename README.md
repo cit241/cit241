@@ -1,8 +1,12 @@
 # cit241
 <!DOCTYPE html>
 <html>
-    <head>
-        <script>
+  <head>
+    <script>
+      // Method to add calories.  Will be called from onclick
+      var addCalories = function(currentCalories, newCalories) {
+        return currentCalories + newCalories;
+      }    
             var answer = prompt("How many calories did you intake?"); 
             answer = true;
             answer = false;
